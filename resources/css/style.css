@@ -4,10 +4,24 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-}
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  width: 100%;
+  }
 
 .navigation {
   display: inline-flex;
+  justify-content: flex-end;
+  width: 85%;
+  }
+
+ul {
+  list-style-type: none;
 }
 
-.test {color: blue;}
+span {
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+a {color: black;}

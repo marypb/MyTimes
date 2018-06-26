@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navigation {
+  display: inline-flex;
+}
+
+.test {color: blue;}

@@ -59,6 +59,30 @@ a {color: black;}
   color: white;
 }
 
+.earth {
+  display: flex;
+  background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-2(fall).png");
+}
+
+.earth p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.camera {
+  display: flex;
+  background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-3(cameraman).png");
+  }
+
+.camera p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
 .column .medium {
   width: 300px;
   flex-direction: column;

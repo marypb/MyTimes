@@ -84,6 +84,7 @@ a {color: black;}
 }
 
 .column .medium {
+  display: flex;
   width: 300px;
   flex-direction: column;
   border: 1px solid black;
@@ -107,6 +108,7 @@ a {color: black;}
   }
 
 .column .small {
+  display: flex;
   width: 240px;
   flex-direction: column;
   border: 1px solid black;
@@ -117,8 +119,8 @@ a {color: black;}
   margin-right: 30px;
   }
 
-.bites {
-  display: flex;
+.cookie {
+  height: 200px;
   background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-news-bite.png");
 }
 

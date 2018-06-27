@@ -45,7 +45,19 @@ a {color: black;}
   margin-right: 30px;
   }
 
-h5 {border-bottom: 1px solid black;}
+.title, .title2 {border-bottom: 1px solid black;}
+
+.title {
+  display: flex;
+  background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-main.png");
+}
+
+.title h5 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
 
 .column .medium {
   width: 300px;
@@ -68,3 +80,9 @@ h5 {border-bottom: 1px solid black;}
   border: 1px solid black;
   margin-right: 30px;
   }
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}

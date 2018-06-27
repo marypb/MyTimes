@@ -25,3 +25,17 @@ span {
 }
 
 a {color: black;}
+
+.body {disply: flex;}
+
+.column .large {width: 630px;}
+
+.Phish, .orca, .earth, .burger, .camera {border: 1px solid black;}
+
+.column .medium {width: 300px;}
+
+.action, .cats {border: 1px solid black;}
+
+.column .small {240px;}
+
+.cookie, .bites {border: 1px solid black;}

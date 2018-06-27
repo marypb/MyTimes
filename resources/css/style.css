@@ -89,6 +89,18 @@ a {color: black;}
   border: 1px solid black;
   }
 
+  .title2 {
+    display: flex;
+    background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-1(cat).png");
+  }
+
+  .title2 h5 {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+  }
+
 .action, .cats {
   border: 1px solid black;
   margin-right: 30px;
@@ -104,6 +116,11 @@ a {color: black;}
   border: 1px solid black;
   margin-right: 30px;
   }
+
+.bites {
+  display: flex;
+  background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-news-bite.png");
+}
 
 p {
   font-family: Georgia;

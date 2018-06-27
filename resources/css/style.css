@@ -26,16 +26,26 @@ span {
 
 a {color: black;}
 
-.body {disply: flex;}
+.body {display: flex;}
 
-.column .large {width: 630px;}
+.column .large {
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+}
 
 .Phish, .orca, .earth, .burger, .camera {border: 1px solid black;}
 
-.column .medium {width: 300px;}
+.column .medium {
+  width: 300px;
+  flex-direction: column;
+}
 
 .action, .cats {border: 1px solid black;}
 
-.column .small {240px;}
+.column .small {
+  width: 240px;
+  flex-direction: column;
+}
 
 .cookie, .bites {border: 1px solid black;}

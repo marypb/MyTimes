@@ -29,7 +29,8 @@ a {color: black;}
 .body {
   display: flex;
   border: 1px solid black;
-}
+  padding-top: 30px;
+  }
 
 
 .column .large {
@@ -37,9 +38,12 @@ a {color: black;}
   flex-direction: column;
   width: 630px;
   border: 1px solid black;
-}
+  }
 
-.Phish, .orca, .earth, .burger, .camera {border: 1px solid black;}
+.Phish, .orca, .earth, .burger, .camera {
+  border: 1px solid black;
+  margin-right: 30px;
+  }
 
 h5 {border-bottom: 1px solid black;}
 
@@ -47,14 +51,20 @@ h5 {border-bottom: 1px solid black;}
   width: 300px;
   flex-direction: column;
   border: 1px solid black;
-}
+  }
 
-.action, .cats {border: 1px solid black;}
+.action, .cats {
+  border: 1px solid black;
+  margin-right: 30px;
+  }
 
 .column .small {
   width: 240px;
   flex-direction: column;
   border: 1px solid black;
-}
+  }
 
-.cookie, .bites {border: 1px solid black;}
+.cookie, .bites {
+  border: 1px solid black;
+  margin-right: 30px;
+  }

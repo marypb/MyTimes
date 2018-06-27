@@ -26,19 +26,27 @@ span {
 
 a {color: black;}
 
-.body {display: flex;}
+.body {
+  display: flex;
+  border: 1px solid black;
+}
+
 
 .column .large {
   display: flex;
   flex-direction: column;
   width: 630px;
+  border: 1px solid black;
 }
 
 .Phish, .orca, .earth, .burger, .camera {border: 1px solid black;}
 
+h5 {border-bottom: 1px solid black;}
+
 .column .medium {
   width: 300px;
   flex-direction: column;
+  border: 1px solid black;
 }
 
 .action, .cats {border: 1px solid black;}
@@ -46,6 +54,7 @@ a {color: black;}
 .column .small {
   width: 240px;
   flex-direction: column;
+  border: 1px solid black;
 }
 
 .cookie, .bites {border: 1px solid black;}

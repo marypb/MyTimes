@@ -6,7 +6,12 @@
   font-weight: bold;
   padding-bottom: 10px;
   width: 100%;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
   }
+
+  .body {z-index: 1;}
 
 .navigation {
   display: inline-flex;
@@ -65,17 +70,31 @@ a {color: black;}
   color: white;
 }
 
+.orca h3 {
+font-family: Georgia;
+font-weight: bold;
+font-size: 23px;
+}
+
 .earth {
   background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-2(fall).png");
   background-size: cover;
   height: 300px;
-}
+  display: flex;
+  }
 
 .earth p {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  align-items: center;
+  }
+
+.burger h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 23px;
 }
 
 .camera {
@@ -101,6 +120,7 @@ a {color: black;}
   display: flex;
   background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-1(cat).png");
   background-size: cover;
+  height: 300px;
   }
 
 .title2 h5 {
@@ -115,6 +135,12 @@ a {color: black;}
   margin-right: 30px;
   flex-direction: column;
   }
+
+.action h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 23px;
+}
 
 .column .small {
   display: flex;

@@ -45,6 +45,11 @@ a {color: black;}
   display: flex;
   }
 
+.horizontalcolumns {
+  display: flex;
+  flex-direction: row;
+}
+
 .Phish, .title {flex-direction: column;}
 
 .orca, .earth, .burger, .camera {flex-direction: column;}
@@ -66,6 +71,7 @@ a {color: black;}
 
 .earth {
   background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-2(fall).png");
+  height: 300px;
 }
 
 .earth p {
@@ -77,6 +83,7 @@ a {color: black;}
 
 .camera {
   background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-3(cameraman).png");
+  height: 300px;
   }
 
 .camera p{

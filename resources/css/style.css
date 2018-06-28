@@ -59,7 +59,7 @@ a {color: black;}
 .title {
   display: flex;
   background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-main.png");
-  width: 100%;
+  background-size: cover;
   }
 
 .title h5 {
@@ -71,6 +71,7 @@ a {color: black;}
 
 .earth {
   background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-2(fall).png");
+  background-size: cover;
   height: 300px;
 }
 
@@ -83,6 +84,7 @@ a {color: black;}
 
 .camera {
   background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-3(cameraman).png");
+  background-size: cover;
   height: 300px;
   }
 
@@ -103,6 +105,7 @@ a {color: black;}
 .title2 {
   display: flex;
   background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-story-1(cat).png");
+  background-size: cover;
   }
 
 .title2 h5 {
@@ -136,6 +139,7 @@ a {color: black;}
 .cookie {
   height: 200px;
   background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/MyTimes/resources/images/img-news-bite.png");
+  background-size: cover;
   }
 
 p {

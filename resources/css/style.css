@@ -4,7 +4,6 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 1px solid black;
   padding-bottom: 10px;
   width: 100%;
   }
@@ -28,7 +27,6 @@ a {color: black;}
 
 .body {
   display: flex;
-  border: 1px solid black;
   padding-top: 30px;
   }
 
@@ -36,11 +34,9 @@ a {color: black;}
 .column .large {
   display: flex;
   width: 630px;
-  border: 1px solid black;
   }
 
 .Phish, .orca, .earth, .burger, .camera {
-  border: 1px solid black;
   margin-right: 30px;
   display: flex;
   }
@@ -99,7 +95,6 @@ a {color: black;}
   display: flex;
   width: 300px;
   flex-direction: column;
-  border: 1px solid black;
   }
 
 .title2 {
@@ -117,7 +112,6 @@ a {color: black;}
 
 .action, .cats {
   display: flex;
-  border: 1px solid black;
   margin-right: 30px;
   flex-direction: column;
   }
@@ -126,12 +120,10 @@ a {color: black;}
   display: flex;
   width: 240px;
   flex-direction: column;
-  border: 1px solid black;
   }
 
 .cookie, .bites {
   display: flex;
-  border: 1px solid black;
   margin-right: 30px;
   flex-direction: column;
   }

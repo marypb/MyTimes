@@ -9,6 +9,7 @@
   position: fixed;
   z-index: 2;
   background-color: white;
+  height: 40px;
   }
 
   .body {z-index: 1;}
@@ -171,10 +172,41 @@ font-size: 23px;
   font-size: 12px;
   color: DimGray;
   border-bottom: 1px solid black;
+  width: 100%;
   }
 
 p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+.line1 {
+  display: inline-flex;
+  }
+
+.line1 p {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.linetwo p {
+  font-family: Verdana;
+  font-size: 12px;
+  color: black;
+  font-weight: normal;
 }
